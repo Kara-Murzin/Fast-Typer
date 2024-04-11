@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.welcomeContainer {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.welcomeText {
+    font-size: 24px;
+    color: #333;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imgBlock {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.img img {
+    width: 60%;
+    height: auto;
+}
+
+.img p {
+    margin-top: 10px;
+    color: #666;
+}
+.under{
+    width: 190px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
